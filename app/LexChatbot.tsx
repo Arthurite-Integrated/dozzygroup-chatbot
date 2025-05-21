@@ -18,14 +18,14 @@ export default function LexChatbot() {
   useEffect(() => {
     // Create and append the script tag
     const script = document.createElement('script');
-    script.src = 'https://d1500n45ahx3xb.cloudfront.net/lex-web-ui-loader.min.js';
+    script.src = 'https://d1alarnbc9g3qw.cloudfront.net/lex-web-ui-loader.min.js';
     script.async = true;
     
     // Initialize the chatbot when the script loads
     script.onload = () => {
       if (window.ChatBotUiLoader) {
         const loaderOpts = {
-          baseUrl: 'https://d1500n45ahx3xb.cloudfront.net/',
+          baseUrl: 'https://d1alarnbc9g3qw.cloudfront.net/',
           shouldLoadMinDeps: true
         };
         
